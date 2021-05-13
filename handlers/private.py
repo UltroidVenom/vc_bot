@@ -16,17 +16,17 @@ from config import BOT_NAME as bn, PLAY_PIC
 @Client.on_message(command("start") & other_filters2)
 async def start(_, message: Message):
     hell_pic = "https://telegra.ph/file/8a935600cafd666f077fb.jpg"
-    hell = f"**I am ★彡 ʟʊƈɨʄɛʀ 彡★\nMusic Bot, an efficient and a perfect bot that lets you play music in your Telegram groups voice chat.**\n\n__**Use the buttons below to know more about me.**__"
+    hell = f"**I am ★彡 ʟʊƈɨʄɛʀ 彡★\nA Music Bot, that lets you play music in your Telegram groups voice chat.**\n\n__**Use the buttons below to know more about me.**__"
     butts = InlineKeyboardMarkup(
         [
             [
                 InlineKeyboardButton(
-                    "Group 💬", url="https://telegra.ph/LUCIFER-MUSIC-BOT-05-13"
+                    "⚒ COMMANDS ⚒", url="https://telegra.ph/LUCIFER-MUSIC-BOT-05-13"
                 )
          ],
              [
                     InlineKeyboardButton(
-                        "⚒ COMMANDS ⚒", url="https://t.me/CrackMonkeyChats"
+                        "Group 💬", url="https://t.me/CrackMonkeyChats"
                     ),
                     InlineKeyboardButton(
                         "Channel 🔈", url="https://t.me/CrackMonkey"
