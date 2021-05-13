@@ -15,8 +15,8 @@ from config import BOT_NAME as bn, PLAY_PIC
 
 @Client.on_message(command("start") & other_filters2)
 async def start(_, message: Message):
-    hell_pic = "https://telegra.ph/file/41393b421aa38e4b7b89e.jpg"
-    hell = f"I am **{bn}** !!\nI let you play music in your group's voice chat 😉\nTo get all commands and their explanation do /help\n\nEnjoy Streaming Music 😉"
+    hell_pic = "https://telegra.ph/file/8a935600cafd666f077fb.jpg"
+    hell = f"**I am ★彡 ʟʊƈɨʄɛʀ 彡★\nMusic Bot, an efficient and a perfect bot that lets you play music in your Telegram groups voice chat.**\n\n__**Use the buttons below to know more about me.**__"
     butts = InlineKeyboardMarkup(
         [
             [
@@ -36,7 +36,7 @@ async def start(_, message: Message):
                 ],
           [
                 InlineKeyboardButton(
-                   "Add Me To Your Group", url="http://t.me/VenomMusicBot?startgroup=true"
+                   "Add Me To Your Group", url="http://t.me/LuciferMusicRobot?startgroup=true"
                 )
             ]
         ]
