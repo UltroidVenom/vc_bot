@@ -22,7 +22,9 @@ async def start(_, message: Message):
             [
                 InlineKeyboardButton(
                     "Group 💬", url="https://t.me/Its_Fuckin_Hell"
-                ),
+                )
+         ],
+          [
                 InlineKeyboardButton(
                     "Channel 📣", url="https://t.me/The_HellBot"
                 )
