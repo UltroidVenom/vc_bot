@@ -15,18 +15,18 @@ from config import BOT_NAME as bn, PLAY_PIC
 
 @Client.on_message(command("start") & other_filters2)
 async def start(_, message: Message):
-    hell_pic = PLAY_PIC
+    hell_pic = "https://telegra.ph/file/41393b421aa38e4b7b89e.jpg"
     hell = f"I am **{bn}** !!\nI let you play music in your group's voice chat 😉\nTo get all commands and their explanation do /help\n\nEnjoy Streaming Music 😉"
     butts = InlineKeyboardMarkup(
         [
             [
                 InlineKeyboardButton(
-                    "Group 💬", url="https://t.me/crackmonkeychats"
+                    "Group 💬", url="https://telegra.ph/LUCIFER-MUSIC-BOT-05-13"
                 )
          ],
              [
                     InlineKeyboardButton(
-                        "💬 Group", url="https://t.me/CrackMonkeyChats"
+                        "⚒ COMMANDS ⚒", url="https://t.me/CrackMonkeyChats"
                     ),
                     InlineKeyboardButton(
                         "Channel 🔈", url="https://t.me/CrackMonkey"
@@ -36,7 +36,7 @@ async def start(_, message: Message):
                 ],
           [
                 InlineKeyboardButton(
-                    "Channel 📣", url="https://t.me/crackmonkey"
+                   "Add Me To Your Group", url="http://t.me/VenomMusicBot?startgroup=true"
                 )
             ]
         ]
