@@ -18,16 +18,29 @@ async def start(_, message: Message):
     hell_pic = PLAY_PIC
     hell = f"I am **{bn}** !!\nI let you play music in your group's voice chat 😉\nTo get all commands and their explanation do /help\n\nEnjoy Streaming Music 😉"
     butts = InlineKeyboardMarkup(
-        [
             [
-                InlineKeyboardButton(
-                    "Group 💬", url="https://t.me/Its_Fuckin_Hell"
-                ),
-                InlineKeyboardButton(
-                    "Channel 📣", url="https://t.me/The_HellBot"
-                )
+                [
+                    InlineKeyboardButton(
+                        "⚒ COMMANDS ⚒", url="https://telegra.ph/MUSIC-BOT-05-06"
+                    )
+                ],
+                [
+                    InlineKeyboardButton(
+                        "💬 Group", url="https://t.me/CrackMonkeyChats"
+                    ),
+                    InlineKeyboardButton(
+                        "Channel 🔈", url="https://t.me/CrackMonkey"
+                    ),
+                    InlineKeyboardButton(
+                        "Support", url="https://t.me/CrackMonkey" )
+                ],
+                [
+                    InlineKeyboardButton(
+                        "Add Me To Your Group", url="http://t.me/VenomMusicBot?startgroup=true"
+                    )
+                ]
             ]
-        ]
+        )
     )
     await message.reply_photo(
     photo=hell_pic,
