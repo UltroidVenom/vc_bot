@@ -21,12 +21,22 @@ async def start(_, message: Message):
         [
             [
                 InlineKeyboardButton(
-                    "Group 💬", url="https://t.me/Its_Fuckin_Hell"
+                    "Group 💬", url="https://t.me/crackmonkeychats"
                 )
          ],
+             [
+                    InlineKeyboardButton(
+                        "💬 Group", url="https://t.me/CrackMonkeyChats"
+                    ),
+                    InlineKeyboardButton(
+                        "Channel 🔈", url="https://t.me/CrackMonkey"
+                    ),
+                    InlineKeyboardButton(
+                        "Support", url="https://t.me/CrackMonkey" )
+                ],
           [
                 InlineKeyboardButton(
-                    "Channel 📣", url="https://t.me/The_HellBot"
+                    "Channel 📣", url="https://t.me/crackmonkey"
                 )
             ]
         ]
